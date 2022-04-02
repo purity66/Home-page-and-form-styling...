@@ -1,0 +1,156 @@
+ <!--
+  portfolio homepage and form styling by
+    Purity Ngei
+    March 
+    License MIT --[
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1cfb698203.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <!--navigation section-->
+    <img src="images/contact.jpg" alt="image" height="300px" width="300px">
+    <nav id="nav-bar">]
+        <ul>
+       
+        <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i>index</a>
+        <li><a href="projects.html" class="nav-link"><i class="fas fa-tasks"></i>Projects</a>
+        <li><a href="services.html" class="nav-link"><i class="fab fa-ups"></i>Services</a>
+        <li><a href="about.html" class="nav-link"><i class="fas fa-address-card"></i>About</a>
+        <li><a href="blog.html" class="nav-link"><i class="fas fa-blog"></i>Blog</a>
+        <li><a href="contact.html" class="nav-link"><i class="fas fa-address-book"></i>Contact</a>
+        <li><a href="resume.html" class="nav-link"><i class="fas fa-file"></i>Resume</a></li>
+        </ul>
+    </nav>
+
+    <!--jumbotron-->
+    <!--main section-->
+    <main>
+        <section>
+          <h2>Changelog 1.0</h2>
+          <p>
+            My name is Purity Ngei<br>I am a fullstack web developer with over 5 years working experience helping individuals and organisations create solutions through code.
+          </p>
+        </section>
+        <section>
+          <h2>Technologies</h2>
+          <table>
+            <tr>
+              <th>Languages</th>
+              <th>Frameworks</th>
+              <th>Databases</th>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>Laravels</td>
+              <td>Oracle</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Rails</td>
+              <td>MySQL</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>Express</td>
+              <td>PostgreSQL</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>Django</td>
+              <td></td>
+            </tr>
+          </table>
+        </section>
+      </main>
+   
+    <p>
+      <h2> To reach me out: </h2>
+    </p>
+
+    <!--main page content-->
+    <main>
+        <form action="contact-form">
+
+            <label for="email">Email*</label><br>
+            <input type="text" name="email"  size="50" placeholder="Your Email" required>
+            <br>
+            <br>
+           
+            <label for="name">Name*</label><br>
+            <input type="text" name="name" size="50" placeholder="Your Name" required>
+            <br>
+            <br>
+           
+            <label for="tel">Tel</label>
+            <input type="tel" name="Tel" size="3" placeholder="+254">
+            <input type="text" name="Tel" id="Tel" placeholder="7********">
+            <br>
+            <br>
+
+            <label for="Products">Preffered means:</label>
+            Tel:<input type="radio" name="Preffered means" value="Tel">
+            Email:<input type="radio" name="Preffered means" value="Email">
+           
+            <br>
+            <br>
+
+            <label for="Product">Product*</label>
+            <select name="Types of services" id="Services">
+                <option value="web application development">web application</option>
+                <option value="system integration">system integration</option>
+                <option value="software prototyping">Software prototyping</option>
+                <option value="network consulting">network consulting</option>
+                <option value="cloud computing">cloud computing</option>
+                <option value="basic software development">basic software development</option>
+                <option value="quality assurance">quality assurance</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="Subject">Subject</label>
+            <input type="text" name="Subject" size="32">
+            <br>
+            <br>
+           
+            <label for="Message">Message*</label>
+            <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+
+            <label for="subscription">Subscribe to news and offers</label>
+            <input type="checkbox" name="">
+            <br>
+            <br>
+           
+           
+            <label for="Send message"></label>
+            <input type="button" value="Send message">
+           
+            <br>
+            <br>
+
+        </form>
+    </main>
+
+    <!--footer section--> <hr>
+    <footer>
+        <footer>
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.github.com"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+            <br>
+             
+       
+           All rights reserved.Purity Ngei.
+    </footer>
+</body>
+</html>
